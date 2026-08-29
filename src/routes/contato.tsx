@@ -36,7 +36,7 @@ const estadoInicial: SolicitacaoOrcamento = {
   nome: "",
   whatsapp: "",
   email: "",
-  tipoProjeto: tiposProjeto[0],
+  tipoProjeto: tiposProjeto[0]!,
   mensagem: "",
 };
 

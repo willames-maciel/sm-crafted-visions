@@ -6,7 +6,7 @@ import { depoimentosMock } from "@/data/projetos";
 export function Testimonials() {
   const [indice, setIndice] = useState(0);
   const total = depoimentosMock.length;
-  const atual = depoimentosMock[indice];
+  const atual = depoimentosMock[indice]!;
 
   return (
     <section className="bg-bordo-escuro py-28 text-areia">
